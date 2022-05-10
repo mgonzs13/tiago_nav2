@@ -23,7 +23,7 @@ def generate_launch_description():
     params_file = os.path.join(
         bringup_dir,
         "params",
-        "tiago_nav2_params.yaml")
+        "nav2_params.yaml")
 
     # Create the launch configuration variables
     launch_rviz = LaunchConfiguration("launch_rviz")

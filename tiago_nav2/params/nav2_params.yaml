@@ -6,9 +6,9 @@ amcl:
     # Odometry model:
     robot_model_type: differential
     alpha1: 0.2
-    alpha2: 0.1
-    alpha3: 0.1
-    alpha4: 0.002
+    alpha2: 0.2
+    alpha3: 0.2
+    alpha4: 0.001
     alpha5: 0.2
 
     # Particle filter:
@@ -140,13 +140,13 @@ controller_server:
       decel_lim_y: 0.0
       decel_lim_theta: -3.0
 
-      max_vel_x: 0.20
+      max_vel_x: 0.30
       min_vel_x: 0.0
 
       max_vel_y: 0.0
       min_vel_y: 0.0
 
-      max_speed_xy: 0.20
+      max_speed_xy: 0.30
       min_speed_xy: 0.1
 
       max_vel_theta: 0.8
