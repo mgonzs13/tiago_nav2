@@ -23,7 +23,7 @@ def generate_launch_description():
     params_file = os.path.join(
         bringup_dir,
         "params",
-        "nav2_params.yaml")
+        "nav2_params_sim.yaml")
 
     # Create the launch configuration variables
     launch_rviz = LaunchConfiguration("launch_rviz")
