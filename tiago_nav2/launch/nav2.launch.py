@@ -76,7 +76,7 @@ def generate_launch_description():
     nav2_bringup_cmd = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
             os.path.join(launch_dir, "bringup.launch.py")),
-        launch_arguments={"cmd_vel_topic": "servoing_cmd_vel",
+        launch_arguments={"cmd_vel_topic": "mobile_base_controller/cmd_vel",
                           "launch_rviz": launch_rviz,
                           "slam": slam,
                           "params_file": params_file,
